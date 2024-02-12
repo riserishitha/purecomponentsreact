@@ -17,6 +17,7 @@ class pure extends PureComponent {
     this.setState({...this.state, toggle:!(this.state.toggle) })
   }
   render() {
+    console.log("This is pure components.")
     return (
       <div>
         <h1>PureComponent Counter</h1>
