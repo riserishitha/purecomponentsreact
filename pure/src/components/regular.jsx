@@ -17,6 +17,7 @@ class normal extends Component {
     this.setState({...this.state, toggle:!(this.state.toggle) })
   }
   render() {
+    console.log("This is regular component.")
     return (
       <div>
         <h1>Regular Counter</h1>
